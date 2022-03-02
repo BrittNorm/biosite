@@ -5,6 +5,7 @@ Biosite About-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!--Contents-->
         <title>About Vincent</title>
         <link rel="stylesheet" type="text/css" href="biosite.css" />
         <!--Google Fonts-->
@@ -13,22 +14,32 @@ Biosite About-->
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Nanum+Gothic:wght@400;700&family=Rubik:wght@300;500;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>About</h1>
-        <div class="columns">
-                    <img id="new-york" src="images/NewYorkCity.jpg" alt=""class="about">
-                    <figcaption>New York City native</figcaption>
-                    <img id="education" src="images/BriarcliffCollege.jpg" alt=""class="about">
-                    <figcaption>Briarcliff College before it became a brewery</figcaption>
-                    <img id="graphic-design" src="images/graphic design.jpg" alt="" class="about">
-                    <figcaption>Graphic design was a great interest</figcaption>
-        </div>
-        <div id="navbar">
+        <!--navigation-->
+        <div id="navbar" style="width:15%">
             <ul class="navigation">
                 <li><a href ="index.html">Home</a></li>
                 <li><a href ="about.html">About</a></li>
                 <li><a href ="hobbies.html">Hobbies</a></li>
             </ul>
         </div>
+        <div style="margin-left:15%">
+        <h1>About</h1>
+        <!--images-->
+        <div class="columns">
+            <div class="img-x">
+                <img id="new-york" class="img-w" src="images/NewYorkCity.jpg" alt="">
+                    <figcaption>New York City native</figcaption>
+            </div>
+            <div class="img-x">      
+                    <img id="education" class="img-w" src="images/BriarcliffCollege.jpg" alt="">
+                    <figcaption>Briarcliff College before it became a brewery</figcaption>
+                </div>  
+                <div class="img-x"> 
+                    <img id="graphic-design" class="img-w" src="images/graphic design.jpg" alt="">
+                    <figcaption>Graphic design was a great interest</figcaption>
+                </div>
+        </div>
+        <!--paragraph-->
         <div id="about-container">
             <div id="about-contents">
 
@@ -50,6 +61,7 @@ Biosite About-->
                 </p>
             </div>
         </div>
+    </div>
         <footer>
             <p>&copy Brittany Normandin 2022</p>
         </footer>
